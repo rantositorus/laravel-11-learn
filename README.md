@@ -1,66 +1,63 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Assignment Progress
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+---
 
-## About Laravel
+|               Nama               |    NRP     |
+| :------------------------------: | :--------: |
+| Ranto Bastara Hamonangan Sitorus | 5025221228 |
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Tech yang digunakan
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+-   Laravel 11.x
+-   MySQL
+-   Tailwind UI
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Progress
 
-## Learning Laravel
+### Minggu 2
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Pada Minggu ke-2 ini kita belajar mengenai installasi Laravel dan pengenalan Laravel dasar seperti Struktur Folder, Laravel Blade, dan Laravel Blade Component
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+#### UI Updates
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1. **Layout**
+   ![layout](resources/assets/markdown/images/Layout.png)
+   **Berikut adalah contoh layout yang dipakai oleh semua page dalam web ini, komponen yang menyusun layout ini diantaranya:**
 
-## Laravel Sponsors
+-   **navigation Bar:**Komponen ini berfungsi untuk mempermudah kita untuk berpindah page dan sebagai penanda bahwa kita di page apa, karena ketika kita berada di page Home maka tombol dengan label Home akan menyala.
+-   **Title:**Komponen ini sebagai tempat untuk kita memberikan judul pada page yang kita buat, dan judul pada setiap page bisa dibuat berbeda.
+-   **Body:**Komponen ini berfungsi sebagai tempat untuk kita memberikan isi dari page yang telah dibuat.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+2. **HomePage**
+   ![Homepage](resources/assets/markdown/images/Homepage.png)
+   Dalam page Home kita memiliki title dengan tulisan "Home Page" dan body dengan isi paragraf "Ini adalaha halaman Homepage"
+3. **Blog/Posts Page**
+   ![PostsPage](resources/assets/markdown/images/Posts%20Page.png)
+   Pada page ini terdapat title dengan tulisan "Blog" dan pada body page terdapat 3 post dengan judul, author, dan content yang berbeda
+4. **About Page**
+   ![AboutPage](resources/assets/markdown/images/About%20Page.png)
+   Pada page ini terdapat title dengan tulisan "About" dan body yang berisi paragraf "Ini adalah Halaman About"
+5. **Contact Page**
+   ![ContactPage](resources/assets/markdown/images/Contact%20Page.png)
+   Pada halaman ini terdapat title dengan tulisan "Contact" dan pada body terdapat paragraf "Ini adalah Halaman Contact"
 
-### Premium Partners
+### Minggu 3
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Pada Minggu ke-3 ini kita belajar mengenai View Data dan Model, dimana kita akan membuat model untuk data Post yang akan ditampilkan melalui view posts (multipost), dan post (singlepost)
 
-## Contributing
+#### UI Updates
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+1. **Blog/Posts Page**
+   ![PostsPage](resources/assets/markdown/images/Posts%20Page%20v2.png)
+   Pada Halaman ini sebenarnya tidak ada perubahan yang signifikan dalam bagian UI namun ketika "Read More" ditekan dia akan menuju page post yang berisi isi post lebih detail
+2. **Post Page**
+   ![PostPage](resources/assets/markdown/images/Single%20Post%20Page.png)
+   Halaman ini merupakan isi dari salah satu post yang berada di halaman posts page, di bagian body artikelnya tidak akan dilimit sehingga teks yang muncul merupakan teks secara keseluruhan.
 
-## Code of Conduct
+### Minggu 4
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Pada Minggu ke-4 ini kita belajar mengenai Database & migrasinya, dan kita juga belajar mengenai Eloquent ORM yang memudahkan kita untuk melakukan perubahan pada database.
 
-## Security Vulnerabilities
+#### UI Updates
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+**_Minggu ini tidak ada update UI, karena materi termasuk dalam bagian backend_**
