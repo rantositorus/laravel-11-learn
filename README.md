@@ -61,3 +61,21 @@ Pada Minggu ke-4 ini kita belajar mengenai Database & migrasinya, dan kita juga 
 #### UI Updates
 
 **_Minggu ini tidak ada update UI, karena materi termasuk dalam bagian backend_**
+
+### Minggu 5
+
+Pada Minggu ke-5 ini kita belajar mengenai model factories, Eloquent Relationship, dan Database Seeder
+
+kita belajar mengenai bagaimana cara membuat data dummy dengan fitur model factories, membuat relasi antar tabel (dalam kasus ini one to many) dan bagaimana cara membuat dan menggunakan seeder untuk menambahkan data kedalam database kita.
+
+#### UI Updates
+
+1. **Blog/Posts Page**
+   ![PostsPage](resources/assets/markdown/images/Posts%20Page%20v3.png)
+   Pada Halaman ini sudah mulai berisi post yang dibuat dengan faker sebanyak 100 posts dan ada tambahan juga di bagian author saya buat dengan nama saya sendiri dan sekarang setiap post ada category masing-masing.
+2. **Author Posts Page**
+   ![AuthorPosts](resources/assets/markdown/images/Authors%20Posts.png)
+   Halaman ini baru, jadi ini merupakan halaman yang menampilkan setiap post yang dibuat oleh author tertentu dengan cara mengklik namanya pada page posts.
+3. **Posts by Category Page**
+   ![CategoryPosts](resources/assets/markdown/images/Categories%20Posts.png)
+   Halaman ini baru, jadi ini merupakan halaman yang menampilkan setiap post dengan kategori tertentu contohnya pada gambar itu merupakan post yang memiliki kategori machine learning, page ini dapat diakses dengan cara menekan nama kategori pada salah satu post di page posts.
